@@ -168,7 +168,7 @@ body {
 
 
 .small-star{
-  background: url('/images/icon-star.svg') no-repeat;
+  background: url('images/icon-star.svg') no-repeat;
   background-size: .8rem;
   background-position: .65rem;
   width: 30px;
@@ -246,7 +246,7 @@ thank you page
 
 
 .thank-you-pic {
-  background: url('/images/illustration-thank-you.svg') no-repeat;
+  background: url('images/illustration-thank-you.svg') no-repeat;
   background-size: 130px;
   width: 130px;
   height: 90px;
