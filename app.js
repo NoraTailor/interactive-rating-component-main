@@ -21,6 +21,11 @@
     h3.innerHTML = `You selected ${valueBtn} out of 5`;
     div.prepend(h3);
   
+    submitBtn.addEventListener('click', () => {
+      thankYouPage.style.display = 'block';
+      firstPage.style.display = 'none';
+      
+    });
   });
 
 
@@ -63,11 +68,6 @@
  
 });
 
-submitBtn.addEventListener('click', () => {
-  thankYouPage.style.display = 'block';
-  firstPage.style.display = 'none';
-  
-});
 
 
 
